@@ -1,0 +1,6 @@
+baseURL = ''
+languageCode = 'en-us'
+title = 'Stellar Forge'
+
+[params]
+    custom_css = ["assets/css/styles.css"]
