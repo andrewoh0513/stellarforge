@@ -5,7 +5,9 @@
   </head>
   <body>
         {{ partial "header" . -}}
+        <div class="content">
         {{ block "main" . }}{{ end }}
+        </div>
         {{ partial "footer" . -}}
   </body>
 </html>

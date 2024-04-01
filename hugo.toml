@@ -2,5 +2,11 @@ baseURL = ''
 languageCode = 'en-us'
 title = 'Stellar Forge'
 
+[menu]
+[[menu.main]]
+    identifier = 'about'
+    name = 'About'
+    url = '/about/'
+
 [params]
     custom_css = ["assets/css/styles.css"]
